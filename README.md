@@ -1,6 +1,13 @@
 # AcuityAssesment
 
-## steps to run the application in local
+
+## steps to run the application in local using makefile
+
+```commandline
+make init
+make run
+```
+## steps to setup and run the application in local
 
 ### 1. create virtual environment
 #### ```virtualenv -p python3.10 venv```
@@ -10,6 +17,8 @@
 #### ```pip3 install -r requirements.txt```
 ### 3. run the application
 #### ```uvicorn app.main:app --reload```
+
+
 
 
 ### curl request for the API
